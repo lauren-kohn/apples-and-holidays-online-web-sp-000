@@ -70,9 +70,6 @@ def all_supplies_in_holidays(holiday_hash)
       binding.pry
       supply_list.join(", ")
       puts "  #{holidays}: #{supply_list}"
-      #supply_list.each do |supply|
-       # puts supply
-      #end
     end
   end 
   
