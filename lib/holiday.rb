@@ -66,10 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
       holidays = holidays.collect do |single_holiday| 
         single_holiday.capitalize
       end
-      holidays.join(" ")
-      binding.pry
-      supply_list.join(", ")
-      puts "  #{holidays}: #{supply_list}"
+      puts "  #{holidays.join(" ")}: #{supply_list.join(", ")}"
     end
   end 
   
