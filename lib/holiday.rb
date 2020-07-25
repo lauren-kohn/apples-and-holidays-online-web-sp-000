@@ -60,7 +60,14 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, holiday|
-    
+    puts season
+    holiday.each do |holiday, supply_list|
+      puts holiday
+      supply_list.each do |supply|
+        puts supply
+      end
+    end
+  end 
   
   # iterate through holiday_hash
   #holiday_supplies = []
