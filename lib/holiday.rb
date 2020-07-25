@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
     holiday_supplies << holiday
     season.to_s
     holiday_supplies.to_s.split(" ")
-    puts " #{season.capitalize}:"
+    puts "#{season.capitalize}:"
     puts "  #{holiday_supplies}"
   end
   # print items such that your readout resembles:
