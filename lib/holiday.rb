@@ -59,15 +59,18 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
-  # iterate through holiday_hash
-  holiday_supplies = []
   holiday_hash.each do |season, holiday|
-    holiday_supplies << holiday
-    season.to_s
-    holiday_supplies.to_s.split(" ").join
-    puts "#{season.capitalize}:"
-    puts "  #{holiday_supplies}"
-  end
+    
+  
+  # iterate through holiday_hash
+  #holiday_supplies = []
+  #holiday_hash.each do |season, holiday|
+  #  holiday_supplies << holiday
+  #  season.to_s
+  #  holiday_supplies.to_s.split(" ").join
+  #  puts "#{season.capitalize}:"
+  #  puts "  #{holiday_supplies}"
+  #end
   # print items such that your readout resembles:
   # .split(" ")
   # iterate over resulting array
